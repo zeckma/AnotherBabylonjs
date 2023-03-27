@@ -65,7 +65,7 @@
             camera.attachControl(canvas, false);
         
             var assetsManager = new BABYLON.AssetsManager(scene);
-        	var meshTask = assetsManager.addMeshTask("skull task", "", "scenes/", "skull.babylon");
+        	var meshTask = assetsManager.addMeshTask("skull task", "", "scenes/", "lantai9.gltf");
         	
         	meshTask.onSuccess = function (task) {
         	    task.loadedMeshes[0].position = BABYLON.Vector3.Zero();
